@@ -74,6 +74,9 @@ jobs:
   unit-tests:
     name: Unit Tests (Mocked, No Secrets)
     runs-on: ubuntu-22.04
+    permissions:
+      contents: read
+      id-token: write
     strategy:
       fail-fast: false
       matrix:
@@ -84,6 +87,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - uses: garnet-org/action@8cccc85403e4ac4e05fb7822c994d3c199f9aa57 # v2.4.0
+        with:
+          job_index: ${{ strategy.job-index }}
       - name: Set up Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
         with:
