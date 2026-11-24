@@ -32,7 +32,7 @@ dependencies = [
     "numpy>=1.26.4, <=4.0.0",
     "sqlalchemy>=2.0.39,<3.0.0",
     "aiosqlite>=0.20.0,<1.0.0",
-    "filelock>=3.12.0,<4.0.0",  # cross-process migration lock for SQLite (Linux/macOS/Windows)
+    "filelock>=3.12.0,<5.0.0",  # cross-process migration lock for SQLite (Linux/macOS/Windows)
     "packaging>=24.0",  # requirement parsing for the GLiNER runtime install
     # gliner2 needs transformers<5, and transformers 4.x needs these two ranges. Pinned
     # in core (the lockfile already resolves inside them) so the GLiNER runtime installed
