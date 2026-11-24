@@ -3,7 +3,7 @@ revision = 5
 requires-python = ">=3.10, <3.15"
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version == '3.13.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.13.*' and sys_platform != 'darwin')",
@@ -727,7 +727,7 @@ version = "0.24.1"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version == '3.13.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.13.*' and sys_platform != 'darwin')",
@@ -1885,7 +1885,7 @@ version = "1.4.0"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version == '3.13.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.13.*' and sys_platform != 'darwin')",
@@ -2504,7 +2504,7 @@ dependencies = [
     { name = "giturlparse" },
     { name = "humanize" },
     { name = "jsonpath-ng" },
-    { name = "orjson", marker = "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy') or (python_full_version >= '3.14' and sys_platform == 'emscripten') or (platform_python_implementation != 'PyPy' and sys_platform != 'emscripten')" },
+    { name = "orjson", marker = "python_full_version >= '3.14' or (platform_python_implementation != 'PyPy' and sys_platform != 'emscripten')" },
     { name = "packaging" },
     { name = "pathvalidate" },
     { name = "pendulum" },
@@ -2547,7 +2547,7 @@ wheels = [
 
 [[package]]
 name = "doclang"
-version = "0.7.3"
+version = "0.10.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "lxml", version = "4.9.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.13'" },
@@ -2555,26 +2555,26 @@ dependencies = [
     { name = "lxml", version = "6.1.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.14'" },
     { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f5/3a/005e4856ad8e9b9879414a4df4dbc56dc3663b96f9d8c920ef210e8931cf/doclang-0.7.3.tar.gz", hash = "sha256:ca50615357e46ebf9597bb9065b9112367103ec24bd539f8ae12649224cf50b0", size = 31569, upload-time = "2026-07-15T08:11:02.917Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/48/09/e2b79f631d5799804fd06402b7d8aa5d6c54da455298fecdca3398d7b3de/doclang-0.10.1.tar.gz", hash = "sha256:c0efb5be0986b89c4f0f7f1472f3d310f78e7f0e29717c0477b64f7e622372e8", size = 105184, upload-time = "2026-11-20T12:56:43.667Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a5/81/334ccc0f0cd7c3d75996b6b596e7f4c62c4c46a0ca042003315c28170159/doclang-0.7.3-py3-none-any.whl", hash = "sha256:9440c4ca9f7e061a7b8d33bdf15b1029be69a4c13cd8952dd6ce541884e4c685", size = 32267, upload-time = "2026-07-15T08:11:01.977Z" },
+    { url = "https://files.pythonhosted.org/packages/34/3c/82c655c0d9d2034745083492c6c798cc1977f7bc2595acde7e92213ab1f1/doclang-0.10.1-py3-none-any.whl", hash = "sha256:8c5c0b2d892fd01bb05dc9e1158720cc5a652b56592681523c590ceff94faeee", size = 114110, upload-time = "2026-11-20T12:56:42.593Z" },
 ]
 
 [[package]]
 name = "docling"
-version = "2.130.0"
+version = "2.132.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "docling-slim", extra = ["standard"] },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/70/ff/9d68bae90e8ca663aa2e8b5ca9e25db50ad8bfd2a6852450b94de55be623/docling-2.130.0.tar.gz", hash = "sha256:f713849d7136511dff1079aeb7eed53bd68c20637c933a69728dbc8564340881", size = 9090, upload-time = "2026-09-22T15:38:15.518Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/7a/6f/6614bebc7516408c95cf36c6183f14076542a3b33131ccb549a02564e55e/docling-2.132.0.tar.gz", hash = "sha256:33b2ce9e34206d428fc0f23b56b312ff35547c33cebfcefede3a025c88181caf", size = 9073, upload-time = "2026-10-01T09:47:26.795Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/16/35/422c785d51ddc42a4ba3aa07ac636dd8f593d794578d7017b533496307c3/docling-2.130.0-py3-none-any.whl", hash = "sha256:86f2052018a93c48810efecbd7a9ecb801dd407602c85c49a1006f252a7151ca", size = 5229, upload-time = "2026-09-22T15:38:13.986Z" },
+    { url = "https://files.pythonhosted.org/packages/a2/ff/7689e3a3036c776526dbed4a6ed049fe5502c678fe74d145e66891953e4b/docling-2.132.0-py3-none-any.whl", hash = "sha256:efd35e2f3832179c0c25476df763a13d2f14262d9e8dd3c4edad2aa7597bafde", size = 5221, upload-time = "2026-10-01T09:47:25.619Z" },
 ]
 
 [[package]]
 name = "docling-core"
-version = "2.98.0"
+version = "2.108.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "defusedxml" },
@@ -2592,9 +2592,9 @@ dependencies = [
     { name = "typer" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6f/1f/03528148da2a97c35fcf0a0a9bc7614b7585cf1f63f624fce85aafaa60c9/docling_core-2.98.0.tar.gz", hash = "sha256:a5dd76d747d23b6e1c83b434e29285798a2547d6e23a0ddfc487ed09ff5663ea", size = 383348, upload-time = "2026-09-22T09:42:51.273Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d1/bf/c33b425d1d38816225090c1f9564d8b9cf2bc8db95c66488a755c64bb663/docling_core-2.108.0.tar.gz", hash = "sha256:14176b28ec993584207b3b84dcc0cbd1c6f258cf66e2621f4fcee00d3301ab2b", size = 525056, upload-time = "2026-11-20T14:35:28.14Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/23/c6/479371d25ad9fd0137c3036bb21d0b1f96075b85958a81ce868aae4bc515/docling_core-2.98.0-py3-none-any.whl", hash = "sha256:655903b45f4c66c759842df8172237bda3ef35055197bf371fa5c855d3df0bd3", size = 305641, upload-time = "2026-09-22T09:42:49.591Z" },
+    { url = "https://files.pythonhosted.org/packages/b4/ff/2b5e353fb307916e0927692a5fe40285ce035f396e25f1cc3721cb1dbf5c/docling_core-2.108.0-py3-none-any.whl", hash = "sha256:ffda59d5f497aa2cf4d9b17fc706ea89a9e160ca0fdc502560bb31980d9c9036", size = 358558, upload-time = "2026-11-20T14:35:26.48Z" },
 ]
 
 [package.optional-dependencies]
@@ -2630,7 +2630,7 @@ wheels = [
 
 [[package]]
 name = "docling-parse"
-version = "7.21.0"
+version = "7.27.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "docling-core" },
@@ -2638,38 +2638,38 @@ dependencies = [
     { name = "pydantic" },
     { name = "pywin32", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/dc/d3/c0b03384b7735261662a5298837f5da49727ba0bf0d63baaeedc97236955/docling_parse-7.21.0.tar.gz", hash = "sha256:babbd8b43deb69706963ebc9b54283b458395a53519f68fd4bd0e7c5f793943b", size = 7035738, upload-time = "2026-09-22T09:53:15.861Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ce/64/6b9792f00e05bf11a5026d6450de0ca85d4daead256304a97a78878b28b9/docling_parse-7.27.1.tar.gz", hash = "sha256:87de922e094f1355040abfa855ef5ea9994ea7edc1ad3675151dd0582441d711", size = 7347701, upload-time = "2026-11-22T06:58:57.301Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/91/34/fee3ae0961ba822bdaea079dd3504e0130ef46d79ee27d8c573c68c9d5a4/docling_parse-7.21.0-cp310-cp310-macosx_14_0_arm64.whl", hash = "sha256:659d01ddf784329cc55a34a5c4509e67d676495b0c15fd83b23bcaf68a04c606", size = 9873877, upload-time = "2026-09-22T09:52:23.249Z" },
-    { url = "https://files.pythonhosted.org/packages/26/20/34ccbe73b4d22410b23fa307ab10de40df0eec1a19356f4a6c88d7df1249/docling_parse-7.21.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:4fb6f8600d67d109730d17d79b057751c979e60316e408e170dcf9667b58e876", size = 10464852, upload-time = "2026-09-22T09:52:25.101Z" },
-    { url = "https://files.pythonhosted.org/packages/bd/55/e73ab76a2f222f7da62ecd0cb71b52dc50a18f829abc2608fd2cbff48cbc/docling_parse-7.21.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:ef0e599a9f7e55d64376b52ecbd1fcda6d9f04c4084a63e2b08ce5263e0d5e5e", size = 10735221, upload-time = "2026-09-22T09:52:26.821Z" },
-    { url = "https://files.pythonhosted.org/packages/41/cf/61b802833404f5097ea2e27bfffbd78212072efdb469f664bd002cab5da5/docling_parse-7.21.0-cp310-cp310-win_amd64.whl", hash = "sha256:3fb7fb6fa42b84c62eb6e3bc63ed984d871a373cbd21cb6fb3404aca1133274d", size = 11879922, upload-time = "2026-09-22T09:52:28.389Z" },
-    { url = "https://files.pythonhosted.org/packages/68/b0/e7403579c68f2f0c2604dcb58f0b4751849155065ef67ca34b9fc1e4cc39/docling_parse-7.21.0-cp310-cp310-win_arm64.whl", hash = "sha256:dab50823c89f8ed1fede62752973dfb202d8ea8fcb0249725537e5b962cf634e", size = 9159206, upload-time = "2026-09-22T09:52:30.017Z" },
-    { url = "https://files.pythonhosted.org/packages/4a/a2/4e5d37d7b2d1381c84c964ebbd1137a3f39e9ca2a2062e5e8ddf36e0596d/docling_parse-7.21.0-cp311-cp311-macosx_14_0_arm64.whl", hash = "sha256:3034ce9555cc2415c6320d213c738b66aad7437283f8fcd57a53da7bf82b239c", size = 9876040, upload-time = "2026-09-22T09:52:31.572Z" },
-    { url = "https://files.pythonhosted.org/packages/1b/38/e0d184289374d30c294c1a03888da413e4c4faf2fc1e95f83179102b45c8/docling_parse-7.21.0-cp311-cp311-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:ad88d0da5e523ddaa0d3ede24e049a3747bb3cbf74a5915f59d7db2e54fa5dd2", size = 10433735, upload-time = "2026-09-22T09:52:33.286Z" },
-    { url = "https://files.pythonhosted.org/packages/01/2c/67569c83b5725ebcb2a3acca146d0e456ba4ba13e9d861dca88479140600/docling_parse-7.21.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:1b63ec697fb30a61f097731a2583616d0952c2ae46e52291960649e959d7cc7d", size = 10840036, upload-time = "2026-09-22T09:52:34.934Z" },
-    { url = "https://files.pythonhosted.org/packages/a4/15/a5eb73ff895ec1def9ca3f5ec2544b95d93132b8ca6c24529beff4994e57/docling_parse-7.21.0-cp311-cp311-win_amd64.whl", hash = "sha256:dc3070dba51d2aecba0ad717bf83751520efa9f6303407cc10bf67281e72faa9", size = 11881837, upload-time = "2026-09-22T09:52:36.883Z" },
-    { url = "https://files.pythonhosted.org/packages/3d/08/22c363f3087c168b3ddcacb9dbf8ddbef2d3781d6fcf35f020b58d8d6bb2/docling_parse-7.21.0-cp311-cp311-win_arm64.whl", hash = "sha256:550607bc26f98855c705efdb8a6ca9e98320b4af7387e93d57d405d7dd36ff6c", size = 9159710, upload-time = "2026-09-22T09:52:39.624Z" },
-    { url = "https://files.pythonhosted.org/packages/e8/01/ab0bc90129114dd2ed95878a04c8849ebb19c716616ee29cc4c4a97cd099/docling_parse-7.21.0-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:1545bebceee3af17b7c0b89c1c1de4c30e0803788fb9dd52303ef361cbce5bc4", size = 9878193, upload-time = "2026-09-22T09:52:41.233Z" },
-    { url = "https://files.pythonhosted.org/packages/b2/dd/6f99faf46f6be1e0a2378ab0b31296c192de916bed9e230b532c183f436f/docling_parse-7.21.0-cp312-cp312-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:fa30c2faa8e5ced8d979e46f39d9b006d22e9eaefad7d6a28cf5862bcae2d7fc", size = 10437224, upload-time = "2026-09-22T09:52:43.349Z" },
-    { url = "https://files.pythonhosted.org/packages/2e/63/1d1bae835bbef978dd6663e902b1c5883353fea2f57102807b7c4a0df9aa/docling_parse-7.21.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:9b6b35b51571d8f6d7f36cb6220f3aaf3857c5b8c9dfcf613195d6e48012e70c", size = 10845287, upload-time = "2026-09-22T09:52:45.129Z" },
-    { url = "https://files.pythonhosted.org/packages/60/aa/fd18638654ed68d1de8a7c20fb59d004e1429ce485a2f0ad5ba7a829f24a/docling_parse-7.21.0-cp312-cp312-win_amd64.whl", hash = "sha256:1380c75534fd6d0f9c01e41e32417c72011c002dc4dd5b9e3072794ce8189b01", size = 11886263, upload-time = "2026-09-22T09:52:48.997Z" },
-    { url = "https://files.pythonhosted.org/packages/08/64/b90ea35ca149a01e346a7aa4b5a75df44c16896c8cd04f696c6725bea671/docling_parse-7.21.0-cp312-cp312-win_arm64.whl", hash = "sha256:22f682ce3b96fd8c51ee348efdd2be27acd70c20e2713dbff232bd7e10f7c755", size = 9160121, upload-time = "2026-09-22T09:52:51.667Z" },
-    { url = "https://files.pythonhosted.org/packages/53/94/836d8fe9d079bc1d1d92498386e9ab7000bc7d1ae5154134e9677d8ec27a/docling_parse-7.21.0-cp313-cp313-macosx_14_0_arm64.whl", hash = "sha256:da68374d71ad50fde66318db0034e56159fb74bf2f73602084b986471f2faee6", size = 9878142, upload-time = "2026-09-22T09:52:54.478Z" },
-    { url = "https://files.pythonhosted.org/packages/94/9e/dcd2704f99ac831bc736c0c2bf30cedeb168cba908536f825946bec9f729/docling_parse-7.21.0-cp313-cp313-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:3d554d9f12b5d8d3d3b239afdcfad53996b4912d6d8e61dfd7635ecb4b15663a", size = 10437326, upload-time = "2026-09-22T09:52:57.327Z" },
-    { url = "https://files.pythonhosted.org/packages/1d/39/51f01a03c39e40939f0e8761bb399462ddc2cb9d95920f59f84615468d9e/docling_parse-7.21.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:40201d5ffbdae0d21d52ecfd5c5045167caec27330a66706c35abc128fd33f40", size = 10845161, upload-time = "2026-09-22T09:52:59.175Z" },
-    { url = "https://files.pythonhosted.org/packages/91/f4/9b900d863146dcd42c9eb984aaa41b5bcaeffe51f8743ca13f9ae3f0ee1d/docling_parse-7.21.0-cp313-cp313-win_amd64.whl", hash = "sha256:10b612c08c537221d5e1ab927a2226602479801e4132d6ebeea131fee9a09c72", size = 11886411, upload-time = "2026-09-22T09:53:01.888Z" },
-    { url = "https://files.pythonhosted.org/packages/bc/ff/9ed39e6bdc256df9a4f69b3e0c33dcd7b7cdc9a491ee5da6be9645fe4a47/docling_parse-7.21.0-cp313-cp313-win_arm64.whl", hash = "sha256:e3f8740bad16bbc1d264708153751787529a06777a0cb51e29242e5ad7f4fd30", size = 9160130, upload-time = "2026-09-22T09:53:04.334Z" },
-    { url = "https://files.pythonhosted.org/packages/97/87/fa8ac21dddf36ee89531e0c8de316e50003885551a99ec0e6eccd76efb12/docling_parse-7.21.0-cp314-cp314-macosx_14_0_arm64.whl", hash = "sha256:fe2a63c0b92ec73fcc0db674ee57ed9972ea2661c08eaf40c099976acd58e708", size = 9878785, upload-time = "2026-09-22T09:53:06.226Z" },
-    { url = "https://files.pythonhosted.org/packages/7b/f7/a29021e0953b4f562c673bb8adf9737a35fc34500680553a05cbfaf6c085/docling_parse-7.21.0-cp314-cp314-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:40bfdf4e7ede1557b58c1680aea1fba1c22bf512e786d2889973fe330178d8df", size = 10437964, upload-time = "2026-09-22T09:53:08.473Z" },
-    { url = "https://files.pythonhosted.org/packages/43/1b/8058f7a4a96ea97ee4a6fe53525c3505b5ca8e95361dce82223c40595c58/docling_parse-7.21.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:8f79205a3ae29104720b6136ed581b0574b3f365984eea5239d9e89ba4196032", size = 10845654, upload-time = "2026-09-22T09:53:10.309Z" },
-    { url = "https://files.pythonhosted.org/packages/48/f1/82049b4c466df0c87864481b80d874cf4c1880a4b7a70c587f608400aced/docling_parse-7.21.0-cp314-cp314-win_amd64.whl", hash = "sha256:d3c57efa2ab1759373c440a2d869d08ff1079a9a3244231c7167b1e85440de51", size = 12322863, upload-time = "2026-09-22T09:53:12.31Z" },
-    { url = "https://files.pythonhosted.org/packages/f4/3f/a5d44d7f51a5f3e2e96620c59770de7a98f3299d98959c1ec9b289937f61/docling_parse-7.21.0-cp314-cp314-win_arm64.whl", hash = "sha256:8cda2b5a6e8e9933ef68a114f283dfa83f6a2876ae70468ed055dbb0cdc8914b", size = 9528726, upload-time = "2026-09-22T09:53:14.311Z" },
+    { url = "https://files.pythonhosted.org/packages/f6/66/ffd9d8d7f71248c278221a4667db87a09cdc88161aa97ef08ce8d699bbe2/docling_parse-7.27.1-cp310-cp310-macosx_14_0_arm64.whl", hash = "sha256:7857f0672ecab85ed9c2c61485eba677ed3757fa8cbbf9c0d5387fca6363901f", size = 9902665, upload-time = "2026-11-22T06:57:53.861Z" },
+    { url = "https://files.pythonhosted.org/packages/5e/20/a3c2f7f24fd849210a0419ff6799baceb7a2ca42be6294aa65866b43bb19/docling_parse-7.27.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f5ba1b99d5d253bbd8255e1d7b2c53bb843dc0333bb9294c32c827e58b3eb329", size = 10648387, upload-time = "2026-11-22T06:57:56.163Z" },
+    { url = "https://files.pythonhosted.org/packages/d8/19/8bd321cb459201d523f1a5dbadb70110cc2de9e6c199bdb74e5adc7fac14/docling_parse-7.27.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:76075d88428ee63830a12fb116ccdf3ca4312563b140e990e14301c00e3d8ee1", size = 10942171, upload-time = "2026-11-22T06:57:58.15Z" },
+    { url = "https://files.pythonhosted.org/packages/02/93/dc9b6289327d9858c3cc9720e0c97d92bfc032cc093db23b71b65b4275c8/docling_parse-7.27.1-cp310-cp310-win_amd64.whl", hash = "sha256:b9caea7e09f229e5c935d31abe839268200bd76da48620c95cfdaf377b32d110", size = 12109827, upload-time = "2026-11-22T06:58:00.04Z" },
+    { url = "https://files.pythonhosted.org/packages/94/e3/71d2d9982ddc0b817bb7d138e981ce650536d9d4d182ef0f6f515acc6084/docling_parse-7.27.1-cp310-cp310-win_arm64.whl", hash = "sha256:4de3dfe2865ffde789ee41a04c615bffe0f19b2541cb56e1e7d1967882ed7222", size = 9419055, upload-time = "2026-11-22T06:58:02.176Z" },
+    { url = "https://files.pythonhosted.org/packages/4e/91/ee9986ced725d136e7368fea3f5a579b4f9a75ac591b2d42e4ec511b507d/docling_parse-7.27.1-cp311-cp311-macosx_14_0_arm64.whl", hash = "sha256:23189c5dff6ab9dc96bf99b45791bc8a5bc63032d8f68f1f41fb1e3b9bbc1b9d", size = 9903149, upload-time = "2026-11-22T06:58:03.995Z" },
+    { url = "https://files.pythonhosted.org/packages/74/17/e53f2df1a85bf76c71e61308c96000573b51907c58a6efe3170e122bda8b/docling_parse-7.27.1-cp311-cp311-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:adc3a189866cdbb080fd72f495dfcc0526c0b4befca2876d5a8e76b148dd1723", size = 10643311, upload-time = "2026-11-22T06:58:05.835Z" },
+    { url = "https://files.pythonhosted.org/packages/a0/06/317d46f15b51f3ffe3571451cb6bd36b278e7fe4f745cb3018c1c60f4f74/docling_parse-7.27.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:de251f0b48b3ae5f5da8c0f32f0e193cb30b665987d25b044a8e49ce01cd65ce", size = 11072516, upload-time = "2026-11-22T06:58:08.027Z" },
+    { url = "https://files.pythonhosted.org/packages/5f/c1/4d5d076a6e292fbf7c630fbfc89f847573314da2d3dec92548c2b001eadd/docling_parse-7.27.1-cp311-cp311-win_amd64.whl", hash = "sha256:9b9e5aaa02d04e43854aeb14c4ac836c4b73c31f908f877539ae03a7d33ef6f1", size = 12111261, upload-time = "2026-11-22T06:58:10.117Z" },
+    { url = "https://files.pythonhosted.org/packages/43/c0/198ffef08382863c7a0d16245b43f6bc1fdeda09e9e0bce7b5bce5fcb47d/docling_parse-7.27.1-cp311-cp311-win_arm64.whl", hash = "sha256:4f13dc70a062533fd9be07663b73a8cbeed36942b83fd5002602db3d03410d4e", size = 9420014, upload-time = "2026-11-22T06:58:11.986Z" },
+    { url = "https://files.pythonhosted.org/packages/f1/b5/82d449c4571b673f7e8e8b3ea364525e4427050582d37dddda5e603273b2/docling_parse-7.27.1-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:96e4d0b730eaf45e7ab3abfb8dbe2fb2e3de2ec4605407fa77fe9825bed73dda", size = 9903174, upload-time = "2026-11-22T06:58:13.83Z" },
+    { url = "https://files.pythonhosted.org/packages/6e/5f/3d7e2997935f3e39ba5f993685667943e1d63bf60cf085a78ccd8ddf1cd6/docling_parse-7.27.1-cp312-cp312-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:a3f01d826f2d8ad8e6b5abb28ceafedd12f8f38b188243f5fd3006538be8ece9", size = 10647506, upload-time = "2026-11-22T06:58:15.718Z" },
+    { url = "https://files.pythonhosted.org/packages/2a/5f/937553a18836bbc115000818f0f3b2ecd6b8ab6d65fd29c4deb7a7f798e8/docling_parse-7.27.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:1519478db6914122326f065ce7f3e2064c5d95d71117a31fdb5d48e3567c4cd4", size = 11076065, upload-time = "2026-11-22T06:58:17.51Z" },
+    { url = "https://files.pythonhosted.org/packages/16/35/056b4715d72abc61e7dd95bedc51e5df68dd6337ace709ae6c56298166e8/docling_parse-7.27.1-cp312-cp312-win_amd64.whl", hash = "sha256:9f5fb1029873c4b2600e52770c175b2e7b1b72913d78f834beb2c28d0f128d98", size = 12117089, upload-time = "2026-11-22T06:58:19.865Z" },
+    { url = "https://files.pythonhosted.org/packages/86/92/565c7695b24bf13c822a5800b2e4a2377afd94518825a4e6e26a60ab4958/docling_parse-7.27.1-cp312-cp312-win_arm64.whl", hash = "sha256:f9add1439da711f12f729ebb55635f696a7dab76bb45f7219969731664876c2b", size = 9422103, upload-time = "2026-11-22T06:58:21.584Z" },
+    { url = "https://files.pythonhosted.org/packages/dc/93/e0ea794a0163717e51ae842c790db36bb38944d29f819762167eb8090eba/docling_parse-7.27.1-cp313-cp313-macosx_14_0_arm64.whl", hash = "sha256:3d24e8c6d5c9b43b8d17cee6a9e606bc6b17e87207d3e75a93462dc2cce4ddb0", size = 9903258, upload-time = "2026-11-22T06:58:23.499Z" },
+    { url = "https://files.pythonhosted.org/packages/ba/92/1da0d047c65d3bdab92ea46e3ece6dbc7886d4a5b455d1fd281dc9a369b3/docling_parse-7.27.1-cp313-cp313-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:950490af2f73583268401415602c8d5e85dc38e1b0e8ed9731318d61962c687c", size = 10647483, upload-time = "2026-11-22T06:58:25.686Z" },
+    { url = "https://files.pythonhosted.org/packages/01/5a/b56a32b539e947f4a534936f2630546aff92b8f7edb1940f3e3d6daa5154/docling_parse-7.27.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:4f77de7ef4d94c31fbd0d04d08aa771090ea4cd52835f5a52732f8fd3ec871c6", size = 11075866, upload-time = "2026-11-22T06:58:27.705Z" },
+    { url = "https://files.pythonhosted.org/packages/4f/7e/d5192cfac73e523ff9ffa85dd58f811b60b0d18515bc44a237597694a09f/docling_parse-7.27.1-cp313-cp313-win_amd64.whl", hash = "sha256:053573a4b0a92849434800da305fb2b476a8803f730dce997a345dd8783ebc79", size = 12117139, upload-time = "2026-11-22T06:58:29.731Z" },
+    { url = "https://files.pythonhosted.org/packages/56/74/053e7aa3faddae14746b19e25f3253b9c311f0697ddd0aec08628ed7d375/docling_parse-7.27.1-cp313-cp313-win_arm64.whl", hash = "sha256:2b315c06e08e0fab6d003b089ffd1d2fa57401d73a6c9f6492143b21240513e8", size = 9422197, upload-time = "2026-11-22T06:58:31.978Z" },
+    { url = "https://files.pythonhosted.org/packages/f8/48/252d308b01405389781d3787ad0490b17f71e41fe676da0a8b3327ea6a1d/docling_parse-7.27.1-cp314-cp314-macosx_14_0_arm64.whl", hash = "sha256:550157fc738e1baa9d00f07a48c7fad57eb342b36578a8a2648da8bed48b9b4d", size = 9904237, upload-time = "2026-11-22T06:58:33.873Z" },
+    { url = "https://files.pythonhosted.org/packages/1e/49/801ec0d38147776e681a1956d5ab12a23f9af26ed681ca05b9a7957a50c2/docling_parse-7.27.1-cp314-cp314-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:4099ca1cd6d297897243389132bf76f2c7481484a2f29efff0e7112245de6b9b", size = 10648350, upload-time = "2026-11-22T06:58:35.65Z" },
+    { url = "https://files.pythonhosted.org/packages/6e/d6/69617e549d86cae7909bf28ce9e759b75132726808501b5afc1cef1e3545/docling_parse-7.27.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:dd0931704d8a4027ffcbdb76a3d8a450bbd7b05e8df5283ae243d01c4f0e9fd2", size = 11076334, upload-time = "2026-11-22T06:58:37.68Z" },
+    { url = "https://files.pythonhosted.org/packages/dc/80/7f37dae0e37bdeb029e42c8ae98912c4030c86faf188ab8a93563cbbb047/docling_parse-7.27.1-cp314-cp314-win_amd64.whl", hash = "sha256:45144f85d2cee6d8684ce94e9f050e3885ba1c6a9ed71b95b30c9d284e57c493", size = 12560216, upload-time = "2026-11-22T06:58:39.562Z" },
+    { url = "https://files.pythonhosted.org/packages/75/07/a222e1d80b338b5fe99cdccedc4a4bd9c98ea8bdfb4e4524c1286df37120/docling_parse-7.27.1-cp314-cp314-win_arm64.whl", hash = "sha256:cd0ed74a3faab9e458653e2b563b65b90a12ec3a048546371d4a0fbd818cfa9f", size = 9802903, upload-time = "2026-11-22T06:58:41.393Z" },
 ]
 
 [[package]]
 name = "docling-slim"
-version = "2.130.0"
+version = "2.132.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "certifi" },
@@ -2682,9 +2682,9 @@ dependencies = [
     { name = "requests" },
     { name = "tqdm" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0e/d5/4db4fd7e756d40db15b07ad072294548b0f508fb35fdd3496fa191223822/docling_slim-2.130.0.tar.gz", hash = "sha256:d45b467d322cd15f03fcc1e792bd4a52aa2dc075dfee229b13ae43a8603f82a6", size = 708768, upload-time = "2026-09-22T15:36:53.243Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/05/bc/c6ddf2589ca55f3fcdd560669027227d09f34a27d3a83e0b041b9e40ae49/docling_slim-2.132.0.tar.gz", hash = "sha256:6970f2d17a3b5bac67cd44ff2705789e6b3cbbdb6366ca1a660dae39f566c27a", size = 772568, upload-time = "2026-10-01T09:45:47.623Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/db/57/9e21add9ec842b314d4d193db8c4186354b872529ef3a17f8aeedbd0c515/docling_slim-2.130.0-py3-none-any.whl", hash = "sha256:913043ee069eb4f107d47ebfca8bdbfbfd7ec84160a7193b7260777e3adbea19", size = 876695, upload-time = "2026-09-22T15:36:51.06Z" },
+    { url = "https://files.pythonhosted.org/packages/d3/b4/338f066c44dca51fe0c7b39b516c3e39a672e647a548d69067ddf6c89621/docling_slim-2.132.0-py3-none-any.whl", hash = "sha256:a1977f7116bc03872c5b763278fcc8c6b7b070a4bc1e11942b771b509071e835", size = 948896, upload-time = "2026-10-01T09:45:45.428Z" },
 ]
 
 [package.optional-dependencies]
@@ -4227,7 +4227,7 @@ version = "9.17.1"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version == '3.13.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.13.*' and sys_platform != 'darwin')",
@@ -4861,7 +4861,7 @@ version = "0.19.0"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version == '3.13.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.13.*' and sys_platform != 'darwin')",
     "(python_full_version == '3.12.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.12.*' and sys_platform != 'darwin')",
     "(python_full_version == '3.11.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.11.*' and sys_platform != 'darwin')",
@@ -5519,7 +5519,7 @@ version = "6.1.3"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
 ]
@@ -5883,7 +5883,7 @@ version = "3.11.2"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version == '3.13.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.13.*' and sys_platform != 'darwin')",
@@ -6842,7 +6842,7 @@ version = "3.7"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version == '3.13.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.13.*' and sys_platform != 'darwin')",
@@ -7107,7 +7107,7 @@ version = "2.5.3"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version == '3.13.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.13.*' and sys_platform != 'darwin')",
@@ -7450,7 +7450,7 @@ version = "1.30.0"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
 ]
@@ -9826,7 +9826,7 @@ version = "3.14.6"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version == '3.13.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.13.*' and sys_platform != 'darwin')",
@@ -10358,7 +10358,7 @@ version = "2026.6.3"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version == '3.13.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.13.*' and sys_platform != 'darwin')",
@@ -10611,7 +10611,7 @@ version = "1.9.1"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version == '3.13.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.13.*' and sys_platform != 'darwin')",
@@ -10805,7 +10805,7 @@ version = "1.18.1"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version == '3.13.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.13.*' and sys_platform != 'darwin')",
@@ -12303,7 +12303,7 @@ version = "0.21.5"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version == '3.13.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.13.*' and sys_platform != 'darwin')",
@@ -12426,7 +12426,7 @@ version = "0.46.2"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version == '3.13.*' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version == '3.13.*' and sys_platform != 'darwin')",
@@ -12522,7 +12522,7 @@ version = "1.6.13"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten')",
-    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
+    "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' not in platform_version and 'Darwin Kernel Version 23.' not in platform_version) or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and sys_platform != 'darwin' and sys_platform != 'emscripten') or (python_full_version >= '3.14' and sys_platform == 'emscripten')",
     "(python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation != 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
     "(python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 22.' in platform_version and sys_platform == 'darwin') or (python_full_version >= '3.14' and platform_python_implementation == 'PyPy' and 'Darwin Kernel Version 23.' in platform_version and sys_platform == 'darwin')",
 ]
